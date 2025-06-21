@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: usuario-service
+  cloud:
+    discovery:
+      enabled: false
+    service-registry:
+      auto-registration:
+        enabled: false
+eureka:
+  client:
+    enabled: false

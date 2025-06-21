@@ -13,6 +13,9 @@ public class ServicoCategoriaMeme {
     private RepositorioCategoriaMeme repositorioCategoriaMeme;
 
     public CategoriaMeme novaCategoriaMeme(CategoriaMeme categoriaMeme) {
+        // Setando valores padrão
+        categoriaMeme.setDataCadastro(new java.sql.Date(System.currentTimeMillis()));
+        categoriaMeme.setUsuarioId(1L); // ID padrão para teste
         return repositorioCategoriaMeme.save(categoriaMeme);
     }
 

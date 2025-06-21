@@ -210,13 +210,3 @@ O sistema gera logs em dois momentos:
 
 Este projeto foi um desafio, pois exigiu a migração de um sistema monolítico para uma arquitetura de microserviços. A implementação de logs e métricas também ajudou a melhorar a observabilidade do sistema.
 
----
-
-### Prints
-
-![Imagem da Pagina de Usuarios](prints/PaginaUsuarios.png)
-![Imagem da Pagina de Categoria dos memes](prints/PaginaCategoriaMemes.png)
-![Imagem da Pagina de Memes](prints/PaginaMeme.png)
-![Imagem dos Logs de Usuarios](prints/LogsUsuarios.png)
-![Imagem dos Logs de Categorias e dos Memes](prints/LogsCategorias&Memes.png)
-

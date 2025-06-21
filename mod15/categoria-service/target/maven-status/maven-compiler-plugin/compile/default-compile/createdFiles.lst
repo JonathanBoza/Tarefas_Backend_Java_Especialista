@@ -1,0 +1,5 @@
+br\com\ebac\categoria\CategoriaServiceApplication.class
+br\com\ebac\categoria\repository\CategoriaRepository.class
+br\com\ebac\categoria\controller\CategoriaController.class
+br\com\ebac\categoria\service\CategoriaService.class
+br\com\ebac\categoria\entity\Categoria.class

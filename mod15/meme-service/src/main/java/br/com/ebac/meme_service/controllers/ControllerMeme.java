@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/meme")
+@RequestMapping("/memes")
 public class ControllerMeme {
 
     private static final Logger logger = LoggerFactory.getLogger(ControllerMeme.class);
