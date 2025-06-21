@@ -1,0 +1,62 @@
+
+# Exercício 4 – Complexidades Assintóticas de Tempo e Espaço
+## Autor: Jonathan Euzébio Boza
+
+---
+
+## 📦 PILHA
+### push(int valor)
+- Tempo: O(1) — Adiciona diretamente na próxima posição do array.
+- Espaço: O(1) por operação, O(n) no total (onde n é a capacidade da pilha).
+
+### pop()
+- Tempo: O(1) — Acesso direto ao topo e decremento.
+- Espaço: O(1)
+
+---
+
+## 📦 FILA
+### enqueue(int valor)
+- Tempo: O(1) — Insere no final usando índice com rotação (fila circular).
+- Espaço: O(1) por operação, O(n) no total.
+
+### dequeue()
+- Tempo: O(1) — Remove do início com rotação.
+- Espaço: O(1)
+
+### rear(), front()
+- Tempo: O(1) — Acesso direto ao índice.
+- Espaço: O(1)
+
+---
+
+## 📦 LISTA ENCADEADA
+### push(Node node)
+- Tempo: O(n) — Precisa percorrer até o final da lista para adicionar.
+- Espaço: O(1) por operação, O(n) no total.
+
+### pop()
+- Tempo: O(n) — Percorre até o penúltimo nó para remover o último.
+- Espaço: O(1)
+
+### insert(int index, Node node)
+- Tempo: O(n) — Percorre até o índice.
+- Espaço: O(1)
+
+### remove(int index)
+- Tempo: O(n) — Percorre até o índice.
+- Espaço: O(1)
+
+### elementAt(int index)
+- Tempo: O(n) — Percorre até o índice.
+- Espaço: O(1)
+
+---
+
+## 🧠 Justificativa
+
+As complexidades variam conforme a estrutura escolhida:
+- **Array** permite acesso rápido (Pilha, Fila), mas tem tamanho fixo.
+- **Lista Encadeada** tem custo maior para acesso, mas é flexível.
+
+Todas as estruturas foram implementadas do zero, sem uso de bibliotecas prontas da linguagem Java.
