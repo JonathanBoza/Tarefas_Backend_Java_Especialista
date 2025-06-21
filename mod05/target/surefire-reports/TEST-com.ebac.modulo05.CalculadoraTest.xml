@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.ebac.modulo05.CalculadoraTest" time="0.322" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="c:\Users\JebCode\OneDrive\Documentos\EBAC\Tarefas_Backend_Java_Especialista\mod05\target\test-classes;c:\Users\JebCode\OneDrive\Documentos\EBAC\Tarefas_Backend_Java_Especialista\mod05\target\classes;C:\Users\JebCode\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\JebCode\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\JebCode\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\JebCode\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\JebCode\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\JebCode\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\JebCode\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\JebCode\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\JebCode\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Users\JebCode\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin"/>
+    <property name="sun.java.command" value="C:\Users\JebCode\AppData\Local\Temp\surefire14267798276194264450\surefirebooter-20250620214930641_3.jar C:\Users\JebCode\AppData\Local\Temp\surefire14267798276194264450 2025-06-20T21-49-30_414-jvmRun1 surefire-20250620214930641_1tmp surefire_0-20250620214930641_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="c:\Users\JebCode\OneDrive\Documentos\EBAC\Tarefas_Backend_Java_Especialista\mod05\target\test-classes;c:\Users\JebCode\OneDrive\Documentos\EBAC\Tarefas_Backend_Java_Especialista\mod05\target\classes;C:\Users\JebCode\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\JebCode\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\JebCode\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\JebCode\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\JebCode\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\JebCode\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\JebCode\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\JebCode\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\JebCode\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\JebCode"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Users\JebCode\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="c:\Users\JebCode\OneDrive\Documentos\EBAC\Tarefas_Backend_Java_Especialista\mod05"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\JebCode\AppData\Local\Temp\surefire14267798276194264450\surefirebooter-20250620214930641_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9"/>
+    <property name="user.name" value="JebCode"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-24.0.1+9"/>
+    <property name="localRepository" value="C:\Users\JebCode\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\JebCode\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="c:\Users\JebCode\OneDrive\Documentos\EBAC\Tarefas_Backend_Java_Especialista\mod05"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\JebCode\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\JebCode\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\gradle\latest\bin;C:\Users\JebCode\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\bin;C:\Users\JebCode\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin;C:\Python313\Scripts\;C:\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\JebCode\AppData\Local\Microsoft\WindowsApps;C:\Users\JebCode\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JebCode\AppData\Roaming\npm;C:\Users\JebCode\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\JebCode\.dotnet\tools;C:\tools\mysql\current\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1.2\bin;;C:\Users\JebCode\AppData\Local\JetBrains\IntelliJ IDEA 2025.1.2\bin;;C:\Users\JebCode\AppData\Local\Programs\Windsurf\bin;C:\Users\JebCode\AppData\Local\Programs\mongosh\;c:\Users\JebCode\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="24.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testDivisaoPorZero" classname="com.ebac.modulo05.CalculadoraTest" time="0.053">
+    <system-out><![CDATA[21:49:31.550 [main] INFO  com.ebac.modulo05.CalculadoraTest - Criando nova instância da Calculadora para teste
+21:49:31.555 [main] INFO  com.ebac.modulo05.CalculadoraTest - Testando divisão por zero: 10 / 0
+21:49:31.563 [main] ERROR com.ebac.modulo05.CalculadoraTest - Erro esperado capturado: Divisão por zero não é permitida
+21:49:31.563 [main] INFO  com.ebac.modulo05.CalculadoraTest - Teste de divisão por zero concluído com sucesso
+]]></system-out>
+  </testcase>
+  <testcase name="testAdicao" classname="com.ebac.modulo05.CalculadoraTest" time="0.003">
+    <system-out><![CDATA[21:49:31.575 [main] INFO  com.ebac.modulo05.CalculadoraTest - Criando nova instância da Calculadora para teste
+21:49:31.576 [main] INFO  com.ebac.modulo05.CalculadoraTest - Testando adição: 6 + 4
+21:49:31.576 [main] INFO  com.ebac.modulo05.CalculadoraTest - Resultado da adição: 10
+]]></system-out>
+  </testcase>
+  <testcase name="testSubtracao" classname="com.ebac.modulo05.CalculadoraTest" time="0.001">
+    <system-out><![CDATA[21:49:31.580 [main] INFO  com.ebac.modulo05.CalculadoraTest - Criando nova instância da Calculadora para teste
+21:49:31.580 [main] INFO  com.ebac.modulo05.CalculadoraTest - Testando subtração: 6 - 4
+21:49:31.580 [main] INFO  com.ebac.modulo05.CalculadoraTest - Resultado da subtração: 2
+]]></system-out>
+  </testcase>
+  <testcase name="testDivisao" classname="com.ebac.modulo05.CalculadoraTest" time="0.002">
+    <system-out><![CDATA[21:49:31.582 [main] INFO  com.ebac.modulo05.CalculadoraTest - Criando nova instância da Calculadora para teste
+21:49:31.583 [main] INFO  com.ebac.modulo05.CalculadoraTest - Testando divisão: 12 / 4
+21:49:31.583 [main] INFO  com.ebac.modulo05.CalculadoraTest - Resultado da divisão: 3
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicacao" classname="com.ebac.modulo05.CalculadoraTest" time="0">
+    <system-out><![CDATA[21:49:31.585 [main] INFO  com.ebac.modulo05.CalculadoraTest - Criando nova instância da Calculadora para teste
+21:49:31.585 [main] INFO  com.ebac.modulo05.CalculadoraTest - Testando multiplicação: 6 * 4
+21:49:31.585 [main] INFO  com.ebac.modulo05.CalculadoraTest - Resultado da multiplicação: 24
+]]></system-out>
+  </testcase>
+</testsuite>
