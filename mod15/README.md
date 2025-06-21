@@ -4,7 +4,7 @@ Por: Jonathan Euzébio Boza
 
 Este é o desafio final do curso **Profissão: Especialista Back-End Java**, realizado na **EBAC - Escola Britânica de Artes Criativas** ([ebaconline.com.br](https://ebaconline.com.br/)).
 
-O objetivo do projeto foi transformar um sistema monolítico em microserviços. O projeto original pode ser encontrado [aqui](https://github.com/github-ebac/backend-java-pro/tree/main/modulo-15-aula-2/memelandia).
+O objetivo do projeto foi transformar um sistema monolítico em microserviços. O projeto pode ser encontrado [aqui](https://github.com/JonathanBoza/Tarefas_Backend_Java_Especialista/tree/master/mod15).
 
 ## Descrição do Projeto
 
@@ -173,9 +173,8 @@ Endpoint: `http://localhost:8083/meme`
 Para rodar os microserviços localmente, siga os seguintes passos:
 
 1. Clone o repositório:
-    ```bash
-    git clone https://github.com/GuiBaeta/ProjetoFinalEBAC.git
-    cd ProjetoFinalEBAC
+    ```bash    git clone https://github.com/JonathanBoza/Tarefas_Backend_Java_Especialista.git
+    cd Tarefas_Backend_Java_Especialista/mod15
     ```
 
 2. Para rodar o **usuario-service**:
