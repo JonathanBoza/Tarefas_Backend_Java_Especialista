@@ -124,8 +124,6 @@ O projeto utiliza banco de dados H2 em memória. Console disponível em:
 ### Exemplos de Requisições
 ![Postman - Criar Funcionário](images/postman-employee.png)
 ![Postman - Criar Cachorro](images/postman-dog.png)
-![Postman - Criar Gato](images/postman-cat.png)
-![Postman - Relatório](images/postman-stats.png)
 
 ---
 Desenvolvido como parte do curso de Especialista Back-end Java da EBAC.
